@@ -12,3 +12,4 @@ with smtplib.SMTP('smtp.gmail.com', 587) as connection:
         to_addrs='22110059@pvgcoet.ac.in',
         msg="Subject:Test\n\nHello from GitHub Actions!"
     )
+print("hello")
